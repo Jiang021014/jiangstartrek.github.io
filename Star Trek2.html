@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="utf-8">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">-->
+    <!-- Bootstrap CSS -->
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  </head>
+
+<title>
+  星际列车购票网站
+</title>
+
+  <body>
+    <div class="bg" style="background-color:#eaf4f7">
+
+<!-- 导航栏部分 -->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#0f2350">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+     <img src="img/planet2.png" alt="" width="100" height="90" class="d-inline-block align-text-top">
+   </a>
+        <a class="navbar-brand" href="#">首页</a>
+        <a class="navbar-brand" href="#">登录/注册</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              车票
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                <li><a class="dropdown-item" href="#">单程</a></li>
+                <li><a class="dropdown-item" href="#">往返</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">退票</a></li>
+                <li><a class="dropdown-item" href="#">改签</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              太空服购买与租赁
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">太空服商店</a></li>
+                <li><a class="dropdown-item" href="#">太空服租赁</a></li>
+                <li><a class="dropdown-item" href="#">太空服穿戴指南</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              团购
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                <li><a class="dropdown-item" href="#">务工人员</a></li>
+                <li><a class="dropdown-item" href="#">学生团体</a></li>
+                <li><a class="dropdown-item" href="#">驴友特惠</a></li>
+              </ul>
+            </li>
+
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              站车服务
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown4">
+                <li><a class="dropdown-item" href="#">车站引导</a></li>
+                <li><a class="dropdown-item" href="#">便民托运</a></li>
+                <li><a class="dropdown-item" href="#">遗失物品查询</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown5" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              商旅服务
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown5">
+                <li><a class="dropdown-item" href="#">餐饮服务</a></li>
+                <li><a class="dropdown-item" href="#">星球特产</a></li>
+                <li><a class="dropdown-item" href="#">星际旅行保险</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown6" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              星际出行指南
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown6">
+                <li><hr class="dropdown-divider">常见问题</li>
+                <li><a class="dropdown-item" href="#">车票</a></li>
+                <li><a class="dropdown-item" href="#">改签、变更到站</a></li>
+                <li><hr class="dropdown-divider">旅客须知</li>
+                <li><a class="dropdown-item" href="#">安全事项</a></li>
+                <li><a class="dropdown-item" href="#">身份核验</a></li>
+              </ul>
+            </li>
+         </ul>
+
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="搜索：车票、星球介绍、餐饮服务等" aria-label="Search">
+            <button class="btn btn-outline-light" style="background-color:#5a79ba" type="submit">搜索</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+
+
+
+
+
+<!--太阳系外旅行-->
+<div class="card" style="height:16rem">
+  <div class="card-body" style="background-color:#e9f1f6">
+    <p class="card-text" style="color:#1e50a2;text-align:right">“想去太阳系之外旅行吗？请点击左侧图片”</p>
+    <p class="card-text" style="color:#1e50a2;text-align:right">“这可能会比较昂贵，也比较危险……”</p>
+
+    <div class="position-absolute top-0 start-0">
+       <a href="#"><img src="img/galaxy.png" alt="" width="500" height="250"></a>
+     </div>
+  </div>
+
+</div>
+
+
+<!-- 旅行套餐卡片 -->
+<div class="card">
+
+<div class="card-header text-white" style="background-color:#5b7e91;height:2.5rem">
+  星际旅行套餐推荐
+</div>
+
+<div class="card-body">
+
+<div class="container-fluid">
+<div class="row">
+  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+    <div class="card bg-dark text-white">
+      <img src="img/haiwangxing.png" class="card-img" alt="...">
+      <div class="card-img-overlay">
+        <h5 class="card-title">海王星旅行套餐</h5>
+        <p class="card-text">海王星的大气层的化学组成以氢分子和氦为主。此外，海王星大气中还有微量的甲烷，这是使行星呈蓝色的原因之一。海王星有着强烈的风暴……</p>
+        <a href="#" class="btn btn-outline-light">详情</a>
+      </div>
+    </div>
+   </div>
+
+   <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+     <div class="card bg-dark text-white">
+       <img src="img/mingwangxing.png" class="card-img" alt="...">
+       <div class="card-img-overlay">
+         <h5 class="card-title">冥王星旅行套餐</h5>
+         <p class="card-text">1930年，克莱德·汤博发现冥王星，并将其视为第九大行星。1992年后在柯伊伯带发现的一些质量与冥王星相若的天体开始挑战其行星地位……</p>
+         <a href="#" class="btn btn-outline-light">详情</a>
+       </div>
+     </div>
+    </div>
+
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+      <div class="card bg-dark text-white">
+        <img src="img/taiyangxi.png" class="card-img" alt="...">
+        <div class="card-img-overlay">
+          <h5 class="card-title">太阳系旅行套餐</h5>
+          <p class="card-text">太阳系的形成大约始于46亿年前一个巨型星际分子云的引力坍缩。太阳系内大部分的质量都集中于太阳，余下的天体中，质量最大的是木星。八大行星逆时针围绕太阳公转……</p>
+          <a href="#" class="btn btn-outline-light">详情</a>
+        </div>
+      </div>
+     </div>
+</div>
+
+</div>
+
+  </div>
+  </div>
+
+
+
+
+<!-- 翻页按钮-->
+<div class="card">
+  <div class="card-body" style="height:4rem; background-color:#e9f1f6">
+<nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-center">
+    <li class="page-item">
+      <a class="page-link" href="file:///F:/Interactive%20Design/Star%20Trek/Star%20Trek.html">上一页</a>
+    </li>
+    <li class="page-item"><a class="page-link" href="file:///F:/Interactive%20Design/Star%20Trek/Star%20Trek.html">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="file:///F:/Interactive%20Design/Star%20Trek/Star%20Trek2.html">下一页</a>
+    </li>
+  </ul>
+</nav>
+</div>
+</div>
+
+<!-- 小尾巴-->
+   <div class="card" style="background-color:#eaedf7; height:10rem">
+  <div class="card-body">
+    <blockquote class="blockquote mb-0 position-absolute bottom-50 start-0">
+      <p class="fs-6">“如果地球之外有生命，那么它们早已到访”</p>
+      <footer class="blockquote-footer fs-6">一个很有智慧的人</footer>
+    </blockquote>
+  </div>
+
+
+  <div class="position-absolute bottom-0 end-0">
+     <img src="img/xingqiu.png" alt="" width="160" height="180">
+   </div>
+
+
+   <div class="card-footer text-muted">
+     开发者：@一个向往宇宙那端的幼稚人类
+   </div>
+
+</div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
