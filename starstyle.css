@@ -1,0 +1,33 @@
+body {
+}
+
+div.daohanglan{
+
+  font-family: "思源宋体 CN Medium";
+}
+
+div.tuce{
+  font-family:"幼圆";
+  font-size:25px;
+}
+
+div.kapian{
+
+font-family: "思源宋体 CN Light";
+
+}
+
+div.mingyan{
+  font-family:"思源宋体 CN Extralight"
+}
+
+
+div.fanye{
+  font-family:"宋体";
+}
+
+div.xiwai{
+  font-family:"思源宋体 CN Medium";
+  font-style: oblique;
+  font-size: 20px;
+}
